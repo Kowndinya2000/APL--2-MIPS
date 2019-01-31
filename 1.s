@@ -18,7 +18,7 @@ main:
 	.fmask	0x00000000,0
 	.set	noreorder
 	.set	nomacro
-	addiu	$sp,$sp,-32
+	addiu	$sp,$sp,-32              
 	sw	$fp,28($sp)
 	move	$fp,$sp
 	li	$2,2			# 0x2
